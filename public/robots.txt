@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vignesheilik.github.io/sitemap.xml
