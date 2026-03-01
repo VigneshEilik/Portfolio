@@ -96,13 +96,13 @@ export default function Navbar() {
 
             {mobileOpen && (
                 <div className="md:hidden border-t border-line bg-bg">
-                    <ul className="flex flex-col py-4 px-6 gap-1" role="list">
+                    <ul className="flex flex-col py-6 px-6 gap-2" role="list">
                         {navLinks.map((link) => (
                             <li key={link.href}>
                                 <a
                                     href={link.href}
                                     onClick={() => setMobileOpen(false)}
-                                    className="block py-2 text-sm text-muted hover:text-fg transition-colors duration-200"
+                                    className="block py-2.5 text-sm text-muted hover:text-fg transition-colors duration-200"
                                 >
                                     {link.label}
                                 </a>

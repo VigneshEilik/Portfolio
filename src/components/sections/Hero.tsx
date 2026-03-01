@@ -42,8 +42,8 @@ export default function Hero() {
                     </FadeIn>
 
                     <FadeIn delay={300}>
-                        <div className="flex flex-row flex-nowrap items-center gap-3">
-                            <a href="#projects" className="btn-primary px-4 sm:px-6 whitespace-nowrap">
+                        <div className="flex flex-col sm:flex-row flex-nowrap sm:flex-nowrap items-stretch sm:items-center gap-3">
+                            <a href="#projects" className="btn-primary px-4 sm:px-6 justify-center sm:justify-start whitespace-nowrap">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
                                     <line x1="8" y1="21" x2="16" y2="21" />
@@ -51,14 +51,14 @@ export default function Hero() {
                                 </svg>
                                 View Projects
                             </a>
-                            <a href="#contact" className="btn-secondary px-4 sm:px-6 whitespace-nowrap">
+                            <a href="mailto:vignesh2k02" className="btn-secondary px-4 sm:px-6 justify-center sm:justify-start whitespace-nowrap">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                                     <polyline points="22,6 12,13 2,6" />
                                 </svg>
                                 Contact Me
                             </a>
-                            <a href="https://drive.google.com/file/d/1E3PqKQqh4vuSVmUTU4V3fb9F3ZeWtstF/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn-secondary px-4 sm:px-6 whitespace-nowrap">
+                            <a href="https://drive.google.com/file/d/1E3PqKQqh4vuSVmUTU4V3fb9F3ZeWtstF/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn-secondary px-4 sm:px-6 justify-center sm:justify-start whitespace-nowrap">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                                     <polyline points="7 10 12 15 17 10" />

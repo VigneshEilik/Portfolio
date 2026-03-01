@@ -73,7 +73,7 @@ export default function NexusAI() {
                                     </svg>
                                     View Source
                                 </a>
-                                <a
+                                {/* <a
                                     href="https://nexus-ai-spartanz.vercel.app"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -85,7 +85,7 @@ export default function NexusAI() {
                                         <line x1="10" y1="14" x2="21" y2="3" />
                                     </svg>
                                     Live Demo
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </FadeIn>
